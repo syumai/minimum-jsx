@@ -1,17 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "lib": ["ES2022"],
+    "lib": ["ES2024", "DOM"],
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "target": "ES2024",
     "strict": true,
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
-    "composite": true,
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "Node16",
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "jsx": "react",
+    "jsxFactory": "h"
   }
 }
-

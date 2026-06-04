@@ -1,5 +1,5 @@
 {
-  "name": "@minimum-jsx/components",
+  "name": "@minimum-jsx/basic-oxc-transform",
   "version": "0.0.0",
   "private": true,
   "files": [
@@ -7,15 +7,15 @@
   ],
   "type": "module",
   "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     }
   },
   "scripts": {
-    "build": "tsc -b tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "build": "node ./scripts/build.mjs"
+  },
+  "devDependencies": {
+    "oxc-transform": "^0.134.0"
   }
 }

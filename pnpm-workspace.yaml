@@ -1,5 +1,5 @@
 packages:
   - "basic"
+  - "basic-oxc-transform"
   - "components"
   - "control-flow"
-
