@@ -5,9 +5,12 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r build",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
     "typecheck": "pnpm -r typecheck"
   },
   "devDependencies": {
+    "oxfmt": "^0.53.0",
     "typescript": "^6.0.3"
   }
 }
