@@ -3,3 +3,4 @@ packages:
   - "basic-oxc-transform"
   - "components"
   - "control-flow"
+  - "text"
