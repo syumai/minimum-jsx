@@ -14,6 +14,7 @@ const { code } = await transform(
     jsx: {
       runtime: "classic",
       pragma: "h",
+      pure: false,
     },
   },
 );

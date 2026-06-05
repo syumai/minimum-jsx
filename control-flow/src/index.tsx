@@ -13,4 +13,3 @@ console.log(
     <repeat times={num}>world!</repeat>
   </messages>,
 );
-export {};

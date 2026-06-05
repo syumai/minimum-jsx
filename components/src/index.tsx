@@ -1,16 +1,16 @@
 import { h } from "./jsxRenderer.js";
 
-function Message(props: { text: string }) {
-  return <message>{props.text}</message>;
+function Messages(props: { children: string[] }): string {
+  return props.children.join(", ");
+}
+
+function Message(props: { text: string }): string {
+  return props.text;
 }
 
 console.log(
-  JSON.stringify(
-    <messages>
-      <Message text="Hello" />
-      <Message text="World" />
-    </messages>,
-    null,
-    2,
-  ),
+  <Messages>
+    <Message text="Hello" />
+    <Message text="World" />
+  </Messages>,
 );

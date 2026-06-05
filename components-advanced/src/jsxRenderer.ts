@@ -22,5 +22,5 @@ export namespace h.JSX {
   export interface ElementChildrenAttribute {
     children: unknown[];
   }
-  export type Element = any;
+  export type Element = string | number;
 }

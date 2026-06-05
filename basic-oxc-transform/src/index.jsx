@@ -1,3 +1,3 @@
 import { h } from "./jsxRenderer.js";
 
-console.log(<div>Hello, world!</div>);
+console.log(<example>Hello, world!</example>);

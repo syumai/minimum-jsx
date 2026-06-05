@@ -4,19 +4,22 @@ function Messages(props: { children: string[] }): string {
   return props.children.join(", ");
 }
 
-function Message(props: { text: string }): string {
-  return props.text;
+function StringMessage(props: { str: string }): string {
+  return props.str;
 }
 
-function NumberMessage(props: { number: number }): number {
-  return props.number;
+function NumberMessage(props: { num: number }): number {
+  return props.num;
 }
+
+const strMsg = <StringMessage str="Hello" />;
+const numMsg = <NumberMessage num={1} />;
 
 const result = (
   <Messages>
-    <Message text="Hello" />
-    <Message text="World" />
-    <NumberMessage number={1} />
+    <StringMessage str="Hello" />
+    <StringMessage str="World" />
+    <NumberMessage num={1} />
   </Messages>
 );
 
