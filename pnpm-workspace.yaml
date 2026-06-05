@@ -4,3 +4,4 @@ packages:
   - "components"
   - "control-flow"
   - "text"
+  - "text-advanced"
