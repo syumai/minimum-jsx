@@ -5,3 +5,4 @@ packages:
   - "control-flow"
   - "text"
   - "text-advanced"
+  - "components-advanced"

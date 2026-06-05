@@ -15,6 +15,9 @@
     },
     {
       "path": "./text-advanced"
+    },
+    {
+      "path": "./components-advanced"
     }
   ]
 }

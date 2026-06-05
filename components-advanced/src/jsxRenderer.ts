@@ -19,4 +19,8 @@ export namespace h.JSX {
   export interface IntrinsicElements {
     [elemType: string]: any;
   }
+  export interface ElementChildrenAttribute {
+    children: unknown[];
+  }
+  export type Element = any;
 }
